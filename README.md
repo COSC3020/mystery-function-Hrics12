@@ -7,8 +7,14 @@ answer to this markdown file.
 ```javascript
 function mystery(a) {
     if(a.length == 1) return a[0];
-    var foo = mystery(a.slice(1, a.length))
+    var foo = mystery(a.slice(1, a.length)) 
     if(foo > a[0]) return foo;
     else return a[0];
 }
 ```
+The function pulls the higest value from the array. I added these lines to test my theory:
+
+result = mystery([3,8,10]);
+console.log(result);
+
+it checks the length of the array if it's equal to 1 and returns the incex of a[0] if true. foo slices the array by checking the first element against the element stored. If foo is greater then a[0] then it returns that variable. If not it returns the first element in the array. 
