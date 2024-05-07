@@ -18,3 +18,5 @@ result = mystery([3,8,10]);
 console.log(result);
 
 it checks the length of the array if it's equal to 1 and returns the incex of a[0] if true. foo slices the array by checking the first element against the element stored. If foo is greater then a[0] then it returns that variable. If not it returns the first element in the array. 
+
+Help from TA
